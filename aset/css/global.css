@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../gambar/wallpaper.jpg) no-repeat center fixed;
+	background-size: cover;
+	font-size: 32px;
+}
+
+.form-page {
+	display: flex;
+	min-height: 90vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-page form {
+	background-color: rgba(10, 243, 243, 0.3);
+	border-radius: 1ch;
+	text-align: center;
+	padding: 2ch;
+}
+
+.form-page .row {
+	margin-bottom: 1ch;
+}
+
+.form-page input {
+	padding: 5px;
+	background: transparent;
+	border: 1px solid #000;
+	outline: none;
+}
+
+.form-page input, .form-page button {
+	font-size: 30px;
+}
